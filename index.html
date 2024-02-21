@@ -13,7 +13,7 @@
   <div class="envelope"></div>
   <div class="front"></div>
   <div class="card">
-  <div class="text">Happy</br> Anniversary</br> Day!</div>
+  <div class="text">Happy</br> Anniversary</br> Day! Babe🥰</div>
   <div class="heart"</div>
   </div>
   <div class="hearts">
@@ -28,4 +28,17 @@
 <div class="shadow"></div>
 </div>
   </body>
+  <script>
+    $(document).ready(function () {
+    $('.container').mouseenter(function () {
+        $('.card').stop().animate({
+            top: '-90px'
+        }, 'slow');
+    }).mouseleave(function () {
+        $('.card').stop().animate({
+            top: 0
+        }, 'slow');
+    });
+});
+  </script>
 </html>
